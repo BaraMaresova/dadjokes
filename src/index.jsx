@@ -6,7 +6,6 @@ import './index.html';
 const App = () => {
   return (
     <>
-      <h1>Dad Jokes</h1>
       <Joke />
     </>
   );
