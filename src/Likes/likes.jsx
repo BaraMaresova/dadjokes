@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import {jokesList} from "../JokesList/jokesList.jsx"
 import './likes.css';
 
 export const Likes = (props) => {

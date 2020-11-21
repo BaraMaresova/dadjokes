@@ -1,5 +1,4 @@
 import React from 'react';
-import {jokesList} from "../JokesList/jokesList.jsx"
 import './joke.css';
 
 export const Joke = (props) => {
@@ -7,7 +6,7 @@ export const Joke = (props) => {
     <div className="joke">
       <div className="joke__body">
         <div className="joke__user">
-          <img className="user-avatar" src={`assets/img/${props.userId}.png`} />
+          <img className="user-avatar" src={`../assets/users/${props.userId}.png`} />
           <p className="user-name">{props.userName}</p>
         </div>
 
